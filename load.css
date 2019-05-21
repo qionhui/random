@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100vh;
+    /*overflow: hidden;*/
+}
+/*--加载--*/
+.load-maxBox{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    transition: 300ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+}
+.load-box{
+    width: 82px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    height: 60px;
+    overflow: hidden;
+    margin-top: -30px;
+    margin-left: -41px;
+}
+.load-box .load{
+    width: 6px;
+    height: 60px;
+    background-color: #2ecc71;
+    display: inline-block;
+    transform-origin: bottom center;
+    animation: loadAn 1.5s ease-in-out infinite;
+}
+@keyframes loadAn {
+    0%{
+        transform: rotateX(0deg);
+        background-color: #2ecc71;
+    }
+    50%{
+        transform: rotateX(180deg);
+        background: #9b59b6;
+    }
+    100%{
+        transform: rotateX(0deg);
+        background-color: #27ae60;
+    }
+}
+.load-box .load1{
+    animation-delay: 0.1s;
+}
+.load-box .load2{
+    animation-delay: 0.2s;
+}
+.load-box .load3{
+    animation-delay: 0.3s;
+}
+.load-box .load4{
+    animation-delay: 0.4s;
+}
+.load-box .load5{
+    animation-delay: 0.5s;
+}
+.load-box .load6{
+    animation-delay: 0.6s;
+}
+.load-box .load7{
+    animation-delay: 0.7s;
+}
+.load-box .load8{
+    animation-delay: 0.8s;
+}
+
+/*--加载--*/
+
+#min{
+    width: 100%;
+    height: 100vh;
+    background-size: 100% 100%;
+    background-color: gray;
+    background: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#min>div{
+    width: 100%;
+    box-sizing: border-box;
+    background: rgba(0,0,0,0.1);
+}
+.box1{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+}
+.box2{
+    height: 60%;
+}
+.box2 .auto{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    margin: auto;
+}
+.box3{
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box4{
+    height: 10%;
+}
+.box1 h1{
+    font-size: 50px;
+    margin: 10px;
+    color: #3498db;
+}
+.box3 .btn{
+    display: block;
+    width: 40%;
+    height: 100px;
+    text-align: center;
+    border: solid 1px #81ecec;
+    border-radius: 30px;
+    background: rgba(255,255,255,0.2);
+}
+.box3 .btn a{
+    font-size: 50px;
+    color: #81ecec;
+    text-decoration: none;
+    line-height: 100px;
+}
+.a_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    height: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+.bor{
+    width: 80px;
+    height: 80px;
+    transition: 1s;
+    background: rgba(255,255,255,0.2);
+}
+.bor span{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 80px;
+    font-size: 35px;
+    transform: rotate(45deg);
+}
+.bor a{
+    display: block;
+    width: 100%;
+    height: 100%    ;
+    text-decoration: none;
+    color: black;
+}
+.xz{
+    transform: rotate(-45deg);
+    background: #81ecec;
+    border: solid #1fffd9 1px;
+}
+.wxz{
+    border: solid #1abc9c 1px;
+    transform: rotate(315deg);
+}
+#ab{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: rgba(0,0,0,0.5);
+}
+#ab div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 80%;
+    max-width: 500px;
+    height: 180px;
+    background: white;
+}
+#ab h2{
+    display: block;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    font-size: 30px;
+}
+#ab p{
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    border-top: solid 1px rgb(144,144,144);
+    box-sizing: border-box;
+}
+#ab p a{
+    float: left;
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+}
+@media screen and (max-width:980px ) {
+    .a_box .bor{
+        width: 50px;
+        height: 50px;
+    }
+    .a_box .bor span{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+}
