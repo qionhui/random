@@ -3,9 +3,10 @@ $(function () {
 
     var rani;
     function myrandom(len){	//随机函数
-        rani = Math.floor(Math.random()*(len+2));//0~9
-        if(rani != 0 && rani != len+1) return (rani-1);
-        else rani = myrandom(len);
+//         rani = Math.floor(Math.random()*(len+2));//0~9
+//         if(rani != 0 && rani != len+1) return (rani-1);
+//         else rani = myrandom(len);
+        rani = Math.floor(Math.random()*len);//0~9
         return rani;
     }
 
