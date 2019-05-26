@@ -4,15 +4,16 @@ $(function () {
         "imgs/dn5.jpg"
     ];
     let sjimg = [
-        "imgs/sj1.jpg",
-        "imgs/sj2.jpg",
-        "imgs/sj3.png",
-        "imgs/sj4.png",
-        "imgs/sj5.png",
-        "imgs/sj6.png",
-        "imgs/sj7.jpg",
-        "imgs/sj8.jpg",
-        "imgs/sj9.jpg",
+           "imgs/222213.jpg"
+//         "imgs/sj1.jpg",
+//         "imgs/sj2.jpg",
+//         "imgs/sj3.png",
+//         "imgs/sj4.png",
+//         "imgs/sj5.png",
+//         "imgs/sj6.png",
+//         "imgs/sj7.jpg",
+//         "imgs/sj8.jpg",
+//         "imgs/sj9.jpg",
     ];
     let img_index = 0;
     if($("body").width() < 980){
