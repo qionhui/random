@@ -4,10 +4,10 @@ $(function () {
         "imgs/dn5.jpg"
     ];
     let sjimg = [
-           "imgs/222213.jpg"
+//            "imgs/222213.jpg"
 //         "imgs/sj1.jpg",
 //         "imgs/sj2.jpg",
-//         "imgs/sj3.png",
+        "imgs/sj3.png"
 //         "imgs/sj4.png",
 //         "imgs/sj5.png",
 //         "imgs/sj6.png",
