@@ -1,4 +1,5 @@
 $(function () {
+    console.log("https://github.com/qionhui/sundries/");
     var XZ;//记录选中的数组
 
     var rani;
@@ -33,6 +34,7 @@ $(function () {
     $(".btn").click(function () {
         if($(".xz").length <= 0){
             aler("没选号码抽你麻痹呢！");
+             console.log("https://github.com/qionhui/sundries/");
         }
         else
         {
